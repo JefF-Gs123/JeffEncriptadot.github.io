@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <Body>
+        <main>
+
+            <img src="imagenes/Vector.jpg" alt="Logo del encriptador A" class = "vector">
+
+            <section id ="panel">
+
+                <form>
+                    
+                    <input type="text" id="textoIngresado" class="texto" placeholder="Ingrese El Texto a Encriptar o Descencriptar Aqui"></textarea>
+
+
+                </form>
+
+                <div id ="rectangulo1">
+
+                    <img src="imagenes/Muñeco.jpg" class ="Muñeco">
+
+                    <div class="parrafos">
+
+                        <p class="Respuesta">Ningun Mensaje Fue Encontrado</p>
+                        <p class = "Mensaje">Ingresa el texto que deseas encriptar o desencriptar</p>
+
+                    </div>
+
+                </div>
+
+                <div id="rectangulo2">
+
+                    <textarea id="textoResuelto" class="resultado"></textarea>
+
+                    <button class ="copiar" type="button" onclick="copiar()"><text>Copiar</text></button>
+            
+                </div>
+
+            </section>
+
+            <section>
+
+                <div class = "Condicion">
+
+                    <img src="imagenes/bi_exclamation-circle-fill.jpg" class ="simbolo">
+
+                    <p class = "Instruccion">Solo Letras Minusculas y Sin Acentos</p>
+
+
+                </div>
+
+                <div class="Botones">
+                    
+                    <button id = "encriptar" class="botonEncriptar" type="button" onclick="encriptar()"><text>Encriptar</text></button>
+                    
+                    <button id = "desencriptar" class="botonDesencriptar" type= "button" onclick ="desencriptar()"><text>Descencriptar</text></button>
+
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>©Sandinojefry@gmail.com</p>
+
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100010141746183"><img src="imagenes/face.jpg" class="facebook"></a>
+                <a href="https://www.linkedin.com/in/jefry-guti%C3%A9rrez-sandino-5193b7227"><img src="imagenes/likedin.png" class="likedin"></a>
+                <a href="https://twitter.com/JeffGS4"><img src="imagenes/twitter.jpg" class ="twitter"></a>
+            </div>
+
+            </footer>
+        <script src="Funciones.js"></script>
+    </Body>
+</html>
+
+ 
+    
