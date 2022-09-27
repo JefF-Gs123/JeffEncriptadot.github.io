@@ -301,3 +301,7 @@ footer img{
     width: 30px;
     height: 40px;
 }
+
+@media screen and(max-width: 480px){
+
+}
